@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(boy.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li{
+    padding: 10px 12px;
+    font-size: 17px;
+    position: relative;
+    margin-top: 25px;
+    font-weight: bold;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    transition: 0.6s ease-in-out;
+
+}
+
+ul li a:hover {
+        background-color: #f44336;
+        color: black;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    padding: 25px;
+    
+}
+h1{
+    color: #fff;
+}
+.content{
+    padding: 145px;
+    text-align: center;
+    font-size: 36px;
+}
+p{
+    text-align: center;
+    padding: 30px;
+    font-size:30px;
+    font-style: italic;
+    color: aliceblue;
+}
+.btn{
+    padding:20;
+    font-weight: bold;
+    color: #f44336;
+    border: 1px sloid transparent;
+    display: inline-block;
+}
